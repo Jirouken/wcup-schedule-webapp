@@ -2,15 +2,17 @@ import { useState } from 'react';
 import { matches } from './data/matches';
 import { useWatchList } from './hooks/useWatchList';
 import { useScores } from './hooks/useScores';
+import { useStandings } from './hooks/useStandings';
 import { Header } from './components/Header';
 import { FilterPanel } from './components/FilterPanel';
 import type { Filters } from './components/FilterPanel';
 import { MatchList } from './components/MatchList';
 import { WatchList } from './components/WatchList';
+import { StandingsPanel } from './components/StandingsPanel';
 import { BroadcastInfoBanner } from './components/BroadcastInfoBanner';
 import './index.css';
 
-type Tab = 'matches' | 'watchlist';
+type Tab = 'matches' | 'watchlist' | 'standings';
 
 const defaultFilters: Filters = {
   phase: 'all',
@@ -22,6 +24,7 @@ const defaultFilters: Filters = {
 function App() {
   const { watched, toggle, copyShareUrl } = useWatchList();
   const { getScore } = useScores();
+  const standings = useStandings();
   const [tab, setTab] = useState<Tab>('matches');
   const [filters, setFilters] = useState<Filters>(defaultFilters);
   const [filterOpen, setFilterOpen] = useState(false);
@@ -66,6 +69,16 @@ function App() {
                 {watched.size}
               </span>
             )}
+          </button>
+          <button
+            onClick={() => setTab('standings')}
+            className={`px-4 py-2 text-sm font-medium rounded-t-lg transition-colors ${
+              tab === 'standings'
+                ? 'bg-gray-800 text-amber-400 border-t border-x border-gray-700'
+                : 'text-gray-400 hover:text-gray-200'
+            }`}
+          >
+            📊 順位表
           </button>
         </div>
       </div>
@@ -139,13 +152,15 @@ function App() {
               isMobile
             />
           </>
-        ) : (
+        ) : tab === 'watchlist' ? (
           <WatchList
             matches={matches}
             watched={watched}
             onToggle={toggle}
             getScore={getScore}
           />
+        ) : (
+          <StandingsPanel groups={standings.groups} />
         )}
       </div>
     </div>
