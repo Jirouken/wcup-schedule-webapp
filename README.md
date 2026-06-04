@@ -1,73 +1,57 @@
-# React + TypeScript + Vite
+# FIFA W杯 2026 放送ガイド
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+W杯2026の全試合スケジュール・放送局情報をまとめたウェブアプリ。
+試合のウォッチリスト作成、スコア自動更新、グループ順位表に対応。
 
-Currently, two official plugins are available:
+**本番サイト:** https://wcup-schedule-webapp.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 主な機能
 
-## React Compiler
+- **全試合一覧** — グループ別／日付別切り替え、フィルター（フェーズ・放送局・日本戦・ウォッチ済）
+- **マイウォッチリスト** — 「見たい」ボタンでブックマーク（LocalStorage保存、URLシェア対応）
+- **スコア自動更新** — GitHub Actions が15分ごとにfootball-data.org APIを叩き、結果をcommit→Vercel自動デプロイ
+- **グループ順位表** — 12グループ全表示、大会前は0統計でチーム一覧表示
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 技術スタック
 
-## Expanding the ESLint configuration
+| 項目 | 内容 |
+|---|---|
+| フロントエンド | React 19 + TypeScript + Vite + Tailwind CSS v3 |
+| ホスティング | Vercel（GitHubと連携、pushで自動デプロイ） |
+| スコア更新 | GitHub Actions（cron: */15, football-data.org API v4） |
+| データ永続化 | LocalStorage（ウォッチリスト）、public/scores.json・standings.json（スコア/順位） |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 開発手順
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev       # http://localhost:5173
+npm run build     # 本番ビルド
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+変更は `master` ブランチにpushするとVercelが自動デプロイ。
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## スコア更新の仕組み
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+GitHub Actions (*/15 cron)
+  └─ scripts/fetch-scores.mjs
+       ├─ GET /competitions/WC/matches  → public/scores.json
+       └─ GET /competitions/WC/standings → public/standings.json
+            └─ git commit "[skip ci]" → push → Vercel deploy
+```
+
+APIキー `FOOTBALL_DATA_API_KEY` はGitHub Secretsにのみ保存。コードには絶対に書かない。
+
+## 今後の実装予定
+
+### フェーズ2（グループステージ終了後 〜 2026年7月上旬）
+
+- [ ] **R32対戦カード自動確定** — グループ順位確定後、TBDだったR32のhome/awayを実際のチーム名に自動書き換え
+- [ ] **3位通過チームの選出ロジック** — 12グループ中上位成績の8チームを特定し、どのポジションに入るか自動マッピング
+- [ ] **R16以降のブラケット自動更新** — 試合結果に基づき、R16/QF/SFのTBDを順次埋めていく
+
+### フェーズ3（任意）
+
+- [ ] **シミュレーション機能** — 「もし○○が勝ったら」を仮定してトーナメント進行をシミュレート
+- [ ] **プッシュ通知** — ウォッチリストの試合開始前に通知（PWA化が前提）
