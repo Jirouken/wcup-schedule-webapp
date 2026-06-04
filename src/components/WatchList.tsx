@@ -3,12 +3,14 @@ import type { FC } from 'react';
 import { format, parseISO, differenceInSeconds } from 'date-fns';
 import { ja } from 'date-fns/locale';
 import type { Match } from '../types/match';
+import type { MatchScore } from '../hooks/useScores';
 import { BroadcastBadge } from './BroadcastBadge';
 
 interface Props {
   matches: Match[];
   watched: Set<string>;
   onToggle: (id: string) => void;
+  getScore: (match: Match) => MatchScore | undefined;
 }
 
 const dayNames = ['日', '月', '火', '水', '木', '金', '土'];
@@ -24,7 +26,7 @@ function formatCountdown(seconds: number) {
   return `${m}分 ${s}秒`;
 }
 
-export const WatchList: FC<Props> = ({ matches, watched, onToggle }) => {
+export const WatchList: FC<Props> = ({ matches, watched, onToggle, getScore }) => {
   const [now, setNow] = useState(new Date());
 
   useEffect(() => {
@@ -111,7 +113,6 @@ export const WatchList: FC<Props> = ({ matches, watched, onToggle }) => {
                 <div className="flex items-center gap-1.5 mb-0.5">
                   {m.isJapan && <span className="text-xs">🇯🇵</span>}
                   {isNext && <span className="text-xs bg-amber-500 text-black px-1.5 py-0.5 rounded font-bold">NEXT</span>}
-                  {isPast && <span className="text-xs text-gray-600">終了</span>}
                   {m.phase !== 'group' && (
                     <span className="text-xs text-gray-500">
                       {m.phase === 'round32' ? 'R32' : m.phase === 'round16' ? 'R16' : m.phase === 'quarter' ? 'QF' : m.phase === 'semi' ? 'SF' : m.phase === 'third' ? '3位決定戦' : '決勝'}
@@ -119,9 +120,25 @@ export const WatchList: FC<Props> = ({ matches, watched, onToggle }) => {
                   )}
                   {m.group && <span className="text-xs text-gray-600">G{m.group}</span>}
                 </div>
-                <div className="text-sm font-medium text-gray-200 truncate">
-                  {m.home} <span className="text-gray-500 font-normal text-xs">vs</span> {m.away}
-                </div>
+                {(() => {
+                  const s = getScore(m);
+                  if (s && (s.status === 'FINISHED' || s.status === 'IN_PLAY' || s.status === 'PAUSED')) {
+                    return (
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm font-medium text-gray-200 truncate flex-1">{m.home}</span>
+                        <span className={`text-base font-bold font-mono tabular-nums ${s.status === 'IN_PLAY' ? 'text-green-400' : 'text-white'}`}>
+                          {s.homeScore ?? '-'} - {s.awayScore ?? '-'}
+                        </span>
+                        <span className="text-sm font-medium text-gray-200 truncate flex-1 text-right">{m.away}</span>
+                      </div>
+                    );
+                  }
+                  return (
+                    <div className="text-sm font-medium text-gray-200 truncate">
+                      {m.home} <span className="text-gray-500 font-normal text-xs">vs</span> {m.away}
+                    </div>
+                  );
+                })()}
                 <div className="flex flex-wrap gap-1 mt-1">
                   {m.broadcast.filter(b => b !== 'NHK BSP4K').map(b => (
                     <BroadcastBadge key={b} broadcaster={b} small />

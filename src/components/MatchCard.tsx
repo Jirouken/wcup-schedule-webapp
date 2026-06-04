@@ -2,6 +2,7 @@ import type { FC } from 'react';
 import { format, parseISO } from 'date-fns';
 import { ja } from 'date-fns/locale';
 import type { Match, Phase } from '../types/match';
+import type { MatchScore } from '../hooks/useScores';
 import { BroadcastBadge } from './BroadcastBadge';
 
 const phaseShortLabels: Record<Phase, string> = {
@@ -19,11 +20,12 @@ interface Props {
   isWatched: boolean;
   onToggle: (id: string) => void;
   showPhase?: boolean;
+  score?: MatchScore;
 }
 
 const dayNames = ['日', '月', '火', '水', '木', '金', '土'];
 
-export const MatchCard: FC<Props> = ({ match, isWatched, onToggle, showPhase }) => {
+export const MatchCard: FC<Props> = ({ match, isWatched, onToggle, showPhase, score }) => {
   const date = parseISO(match.date);
   const dayName = dayNames[date.getDay()];
   const formattedDate = format(date, 'M/d', { locale: ja });
@@ -76,10 +78,31 @@ export const MatchCard: FC<Props> = ({ match, isWatched, onToggle, showPhase }) 
         )}
       </div>
 
-      {/* Teams */}
-      <div className={`text-base font-bold mb-2 ${isJapanMatch ? 'text-blue-100' : 'text-gray-100'}`}>
-        {match.home} <span className="text-gray-400 font-normal text-sm">vs</span> {match.away}
-      </div>
+      {/* Teams & Score */}
+      {score?.status === 'FINISHED' || score?.status === 'IN_PLAY' || score?.status === 'PAUSED' ? (
+        <div className="mb-2">
+          <div className="flex items-center justify-between gap-2">
+            <span className={`text-sm font-bold flex-1 ${isJapanMatch ? 'text-blue-100' : 'text-gray-100'}`}>{match.home}</span>
+            <span className={`text-xl font-bold font-mono tabular-nums px-2 ${score.status === 'FINISHED' ? 'text-white' : 'text-green-400'}`}>
+              {score.homeScore ?? '-'} - {score.awayScore ?? '-'}
+            </span>
+            <span className={`text-sm font-bold flex-1 text-right ${isJapanMatch ? 'text-blue-100' : 'text-gray-100'}`}>{match.away}</span>
+          </div>
+          {score.status === 'IN_PLAY' && (
+            <div className="text-xs text-green-400 text-center mt-0.5 animate-pulse">● 試合中</div>
+          )}
+          {score.status === 'PAUSED' && (
+            <div className="text-xs text-yellow-400 text-center mt-0.5">ハーフタイム</div>
+          )}
+          {score.status === 'FINISHED' && (
+            <div className="text-xs text-gray-500 text-center mt-0.5">終了</div>
+          )}
+        </div>
+      ) : (
+        <div className={`text-base font-bold mb-2 ${isJapanMatch ? 'text-blue-100' : 'text-gray-100'}`}>
+          {match.home} <span className="text-gray-400 font-normal text-sm">vs</span> {match.away}
+        </div>
+      )}
 
       {/* City */}
       {match.city && (

@@ -4,6 +4,7 @@ import { ja } from 'date-fns/locale';
 import type { Match, Phase } from '../types/match';
 import { MatchCard } from './MatchCard';
 import type { Filters } from './FilterPanel';
+import type { MatchScore } from '../hooks/useScores';
 
 interface Props {
   matches: Match[];
@@ -12,6 +13,7 @@ interface Props {
   filters: Filters;
   viewMode: 'group' | 'date';
   onViewModeChange: (mode: 'group' | 'date') => void;
+  getScore: (match: Match) => MatchScore | undefined;
 }
 
 const phaseLabels: Record<Phase, string> = {
@@ -28,7 +30,7 @@ const phaseOrder: Phase[] = ['group', 'round32', 'round16', 'quarter', 'semi', '
 
 const dayNames = ['日', '月', '火', '水', '木', '金', '土'];
 
-export const MatchList: FC<Props> = ({ matches, watched, onToggle, filters, viewMode, onViewModeChange }) => {
+export const MatchList: FC<Props> = ({ matches, watched, onToggle, filters, viewMode, onViewModeChange, getScore }) => {
   const filtered = matches.filter(m => {
     if (filters.phase !== 'all' && m.phase !== filters.phase) return false;
     if (filters.broadcaster !== 'all' && !m.broadcast.includes(filters.broadcaster)) return false;
@@ -112,6 +114,7 @@ export const MatchList: FC<Props> = ({ matches, watched, onToggle, filters, view
                 isWatched={watched.has(m.id)}
                 onToggle={onToggle}
                 showPhase={viewMode === 'date'}
+                score={getScore(m)}
               />
             ))}
           </div>

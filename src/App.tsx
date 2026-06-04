@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { matches } from './data/matches';
 import { useWatchList } from './hooks/useWatchList';
+import { useScores } from './hooks/useScores';
 import { Header } from './components/Header';
 import { FilterPanel } from './components/FilterPanel';
 import type { Filters } from './components/FilterPanel';
@@ -20,6 +21,7 @@ const defaultFilters: Filters = {
 
 function App() {
   const { watched, toggle, copyShareUrl } = useWatchList();
+  const { getScore } = useScores();
   const [tab, setTab] = useState<Tab>('matches');
   const [filters, setFilters] = useState<Filters>(defaultFilters);
   const [filterOpen, setFilterOpen] = useState(false);
@@ -122,6 +124,7 @@ function App() {
                   filters={filters}
                   viewMode={viewMode}
                   onViewModeChange={setViewMode}
+                  getScore={getScore}
                 />
               </div>
             </div>
@@ -141,6 +144,7 @@ function App() {
             matches={matches}
             watched={watched}
             onToggle={toggle}
+            getScore={getScore}
           />
         )}
       </div>
