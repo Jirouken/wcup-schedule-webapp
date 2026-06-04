@@ -15,4 +15,5 @@ export interface Match {
   isJapan: boolean;
   note?: string;
   isTBD?: boolean;
+  matchNumber?: string;
 }

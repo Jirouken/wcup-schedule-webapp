@@ -58,6 +58,11 @@ export const MatchCard: FC<Props> = ({ match, isWatched, onToggle, showPhase }) 
           {formattedDate}({dayName})
         </span>
         <span className="text-sm font-bold text-amber-400">{match.time}</span>
+        {match.matchNumber && (
+          <span className="text-xs bg-indigo-700/80 text-indigo-200 px-1.5 py-0.5 rounded font-bold font-mono">
+            {match.matchNumber}
+          </span>
+        )}
         {showPhase && (
           <span className="text-xs bg-gray-700 text-gray-300 px-1.5 py-0.5 rounded font-medium">
             {phaseLabel}

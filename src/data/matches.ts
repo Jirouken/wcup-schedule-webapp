@@ -102,46 +102,74 @@ export const matches: Match[] = [
   { id: 'L6', phase: 'group', group: 'L', date: '2026-06-28', time: '06:00', home: 'クロアチア', away: 'ガーナ', city: 'フィラデルフィア（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false },
 
   // ===== ラウンド32（1回戦）=====
-  { id: 'R32_01', phase: 'round32', date: '2026-06-29', time: '02:00', home: 'グループC 2位', away: 'グループF 1位', city: 'モンテレイ（墨）', broadcast: ['フジテレビ', 'NHK BSP4K', 'DAZN'], isJapan: true, isTBD: true, note: '日本の決勝T1回戦（1位通過時）' },
-  { id: 'R32_02', phase: 'round32', date: '2026-06-29', time: '10:00', home: 'グループC 1位', away: 'グループF 2位', city: 'ヒューストン（米）', broadcast: ['フジテレビ', 'NHK BSP4K', 'DAZN'], isJapan: true, isTBD: true, note: '日本の決勝T1回戦（2位通過時）' },
-  { id: 'R32_03', phase: 'round32', date: '2026-06-29', time: '05:00', home: 'グループA 1位', away: 'グループB 2位', city: '', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_04', phase: 'round32', date: '2026-06-30', time: '02:00', home: 'グループD 1位', away: 'グループE 2位', city: '', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_05', phase: 'round32', date: '2026-06-30', time: '05:00', home: 'グループA 2位', away: 'グループB 1位', city: '', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_06', phase: 'round32', date: '2026-06-30', time: '09:00', home: 'グループD 2位', away: 'グループE 1位', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_07', phase: 'round32', date: '2026-07-01', time: '02:00', home: 'グループG 1位', away: 'グループH 2位', city: '', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_08', phase: 'round32', date: '2026-07-01', time: '05:00', home: 'グループG 2位', away: 'グループH 1位', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_09', phase: 'round32', date: '2026-07-02', time: '02:00', home: 'グループI 1位', away: 'グループJ 2位', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_10', phase: 'round32', date: '2026-07-02', time: '05:00', home: 'グループI 2位', away: 'グループJ 1位', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_11', phase: 'round32', date: '2026-07-02', time: '09:00', home: 'グループK 1位', away: 'グループL 2位', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_12', phase: 'round32', date: '2026-07-03', time: '02:00', home: 'グループK 2位', away: 'グループL 1位', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_13', phase: 'round32', date: '2026-07-03', time: '05:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_14', phase: 'round32', date: '2026-07-04', time: '02:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_15', phase: 'round32', date: '2026-07-04', time: '05:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R32_16', phase: 'round32', date: '2026-07-05', time: '02:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ① グループA2位 vs グループB2位
+  { id: 'R32_03', phase: 'round32', matchNumber: '①', date: '2026-06-29', time: '04:00', home: 'グループA 2位', away: 'グループB 2位', city: 'ロサンゼルス（米）', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ② グループC1位 vs グループF2位（日本2位通過時）
+  { id: 'R32_02', phase: 'round32', matchNumber: '②', date: '2026-06-30', time: '02:00', home: 'グループC 1位', away: 'グループF 2位', city: 'ヒューストン（米）', broadcast: ['フジテレビ', 'NHK BSP4K', 'DAZN'], isJapan: true, isTBD: true, note: '日本の決勝T1回戦（2位通過時）' },
+  // ③ グループE1位 vs 3位通過チーム
+  { id: 'R32_04', phase: 'round32', matchNumber: '③', date: '2026-06-30', time: '05:30', home: 'グループE 1位', away: '3位通過チーム（TBD）', city: 'ボストン（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ④ グループF1位 vs グループC2位（日本1位通過時）
+  { id: 'R32_01', phase: 'round32', matchNumber: '④', date: '2026-06-30', time: '10:00', home: 'グループF 1位', away: 'グループC 2位', city: 'モンテレイ（墨）', broadcast: ['フジテレビ', 'NHK BSP4K', 'DAZN'], isJapan: true, isTBD: true, note: '日本の決勝T1回戦（1位通過時）' },
+  // ⑤ グループE2位 vs グループI2位
+  { id: 'R32_05', phase: 'round32', matchNumber: '⑤', date: '2026-07-01', time: '02:00', home: 'グループE 2位', away: 'グループI 2位', city: 'アーリントン（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ⑥ グループI1位 vs 3位通過チーム
+  { id: 'R32_06', phase: 'round32', matchNumber: '⑥', date: '2026-07-01', time: '06:00', home: 'グループI 1位', away: '3位通過チーム（TBD）', city: 'ニューアーク（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ⑦ グループA1位 vs 3位通過チーム
+  { id: 'R32_07', phase: 'round32', matchNumber: '⑦', date: '2026-07-01', time: '10:00', home: 'グループA 1位', away: '3位通過チーム（TBD）', city: 'メキシコシティ（墨）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ⑧ グループL1位 vs 3位通過チーム
+  { id: 'R32_08', phase: 'round32', matchNumber: '⑧', date: '2026-07-02', time: '01:00', home: 'グループL 1位', away: '3位通過チーム（TBD）', city: 'アトランタ（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ⑨ グループG1位 vs 3位通過チーム
+  { id: 'R32_09', phase: 'round32', matchNumber: '⑨', date: '2026-07-02', time: '05:00', home: 'グループG 1位', away: '3位通過チーム（TBD）', city: 'シアトル（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ⑩ グループD1位 vs 3位通過チーム
+  { id: 'R32_10', phase: 'round32', matchNumber: '⑩', date: '2026-07-02', time: '09:00', home: 'グループD 1位', away: '3位通過チーム（TBD）', city: 'サンタクララ（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ⑪ グループH1位 vs グループJ2位
+  { id: 'R32_11', phase: 'round32', matchNumber: '⑪', date: '2026-07-03', time: '04:00', home: 'グループH 1位', away: 'グループJ 2位', city: 'ロサンゼルス（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ⑫ グループK2位 vs グループL2位
+  { id: 'R32_12', phase: 'round32', matchNumber: '⑫', date: '2026-07-03', time: '08:00', home: 'グループK 2位', away: 'グループL 2位', city: 'トロント（加）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ⑬ グループB1位 vs 3位通過チーム
+  { id: 'R32_13', phase: 'round32', matchNumber: '⑬', date: '2026-07-03', time: '12:00', home: 'グループB 1位', away: '3位通過チーム（TBD）', city: 'バンクーバー（加）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ⑭ グループD2位 vs グループG2位
+  { id: 'R32_14', phase: 'round32', matchNumber: '⑭', date: '2026-07-04', time: '03:00', home: 'グループD 2位', away: 'グループG 2位', city: 'アーリントン（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ⑮ グループJ1位 vs グループH2位
+  { id: 'R32_15', phase: 'round32', matchNumber: '⑮', date: '2026-07-04', time: '07:00', home: 'グループJ 1位', away: 'グループH 2位', city: 'マイアミ（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // ⑯ グループK1位 vs 3位通過チーム
+  { id: 'R32_16', phase: 'round32', matchNumber: '⑯', date: '2026-07-04', time: '10:30', home: 'グループK 1位', away: '3位通過チーム（TBD）', city: 'カンザスシティ（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
 
   // ===== ラウンド16（2回戦）=====
-  { id: 'R16_01', phase: 'round16', date: '2026-07-07', time: '02:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R16_02', phase: 'round16', date: '2026-07-07', time: '09:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R16_03', phase: 'round16', date: '2026-07-08', time: '02:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R16_04', phase: 'round16', date: '2026-07-08', time: '09:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R16_05', phase: 'round16', date: '2026-07-09', time: '02:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R16_06', phase: 'round16', date: '2026-07-09', time: '09:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R16_07', phase: 'round16', date: '2026-07-10', time: '02:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'R16_08', phase: 'round16', date: '2026-07-10', time: '09:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // [A] R32①勝者 vs R32④勝者（日本1位通過時の出場可能性あり）
+  { id: 'R16_01', phase: 'round16', matchNumber: '[A]', date: '2026-07-05', time: '02:00', home: 'R32① 勝者', away: 'R32④ 勝者', city: 'ヒューストン（米）', broadcast: ['フジテレビ', 'NHK BSP4K', 'DAZN'], isJapan: true, isTBD: true, note: '日本1位通過時の出場可能性あり' },
+  // [B] R32③勝者 vs R32⑥勝者
+  { id: 'R16_02', phase: 'round16', matchNumber: '[B]', date: '2026-07-05', time: '06:00', home: 'R32③ 勝者', away: 'R32⑥ 勝者', city: 'フィラデルフィア（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // [C] R32②勝者 vs R32⑤勝者（日本2位通過時の出場可能性あり）
+  { id: 'R16_03', phase: 'round16', matchNumber: '[C]', date: '2026-07-06', time: '05:00', home: 'R32② 勝者', away: 'R32⑤ 勝者', city: 'ニューアーク（米）', broadcast: ['フジテレビ', 'NHK BSP4K', 'DAZN'], isJapan: true, isTBD: true, note: '日本2位通過時の出場可能性あり' },
+  // [D] R32⑦勝者 vs R32⑧勝者
+  { id: 'R16_04', phase: 'round16', matchNumber: '[D]', date: '2026-07-06', time: '09:00', home: 'R32⑦ 勝者', away: 'R32⑧ 勝者', city: 'メキシコシティ（墨）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // [E] R32⑪勝者 vs R32⑫勝者
+  { id: 'R16_05', phase: 'round16', matchNumber: '[E]', date: '2026-07-07', time: '04:00', home: 'R32⑪ 勝者', away: 'R32⑫ 勝者', city: 'アーリントン（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // [F] R32⑨勝者 vs R32⑩勝者
+  { id: 'R16_06', phase: 'round16', matchNumber: '[F]', date: '2026-07-07', time: '09:00', home: 'R32⑨ 勝者', away: 'R32⑩ 勝者', city: 'シアトル（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // [G] R32⑭勝者 vs R32⑮勝者
+  { id: 'R16_07', phase: 'round16', matchNumber: '[G]', date: '2026-07-08', time: '01:00', home: 'R32⑭ 勝者', away: 'R32⑮ 勝者', city: 'アトランタ（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // [H] R32⑬勝者 vs R32⑯勝者
+  { id: 'R16_08', phase: 'round16', matchNumber: '[H]', date: '2026-07-08', time: '05:00', home: 'R32⑬ 勝者', away: 'R32⑯ 勝者', city: 'バンクーバー（加）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
 
   // ===== 準々決勝 =====
-  { id: 'QF_01', phase: 'quarter', date: '2026-07-11', time: '01:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'QF_02', phase: 'quarter', date: '2026-07-11', time: '09:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'QF_03', phase: 'quarter', date: '2026-07-12', time: '02:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'QF_04', phase: 'quarter', date: '2026-07-12', time: '09:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // 〈I〉 R16[A]勝者 vs R16[B]勝者（日本1位通過時の出場可能性あり）
+  { id: 'QF_01', phase: 'quarter', matchNumber: '〈I〉', date: '2026-07-10', time: '05:00', home: 'R16[A] 勝者', away: 'R16[B] 勝者', city: 'ボストン（米）', broadcast: ['フジテレビ', 'NHK BSP4K', 'DAZN'], isJapan: true, isTBD: true, note: '日本1位通過時の出場可能性あり' },
+  // 〈II〉 R16[E]勝者 vs R16[F]勝者
+  { id: 'QF_02', phase: 'quarter', matchNumber: '〈II〉', date: '2026-07-11', time: '04:00', home: 'R16[E] 勝者', away: 'R16[F] 勝者', city: 'ロサンゼルス（米）', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  // 〈III〉 R16[C]勝者 vs R16[D]勝者（日本2位通過時の出場可能性あり）
+  { id: 'QF_03', phase: 'quarter', matchNumber: '〈III〉', date: '2026-07-12', time: '06:00', home: 'R16[C] 勝者', away: 'R16[D] 勝者', city: 'マイアミ（米）', broadcast: ['フジテレビ', 'NHK BSP4K', 'DAZN'], isJapan: true, isTBD: true, note: '日本2位通過時の出場可能性あり' },
+  // 〈IV〉 R16[G]勝者 vs R16[H]勝者
+  { id: 'QF_04', phase: 'quarter', matchNumber: '〈IV〉', date: '2026-07-12', time: '10:00', home: 'R16[G] 勝者', away: 'R16[H] 勝者', city: 'カンザスシティ（米）', broadcast: ['NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
 
   // ===== 準決勝 =====
-  { id: 'SF_01', phase: 'semi', date: '2026-07-15', time: '09:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
-  { id: 'SF_02', phase: 'semi', date: '2026-07-16', time: '09:00', home: 'TBD', away: 'TBD', city: '', broadcast: ['日本テレビ', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  { id: 'SF_01', phase: 'semi', date: '2026-07-15', time: '04:00', home: 'QF〈I〉 勝者', away: 'QF〈II〉 勝者', city: 'アーリントン（米）', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  { id: 'SF_02', phase: 'semi', date: '2026-07-16', time: '04:00', home: 'QF〈III〉 勝者', away: 'QF〈IV〉 勝者', city: 'アトランタ（米）', broadcast: ['日本テレビ', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
 
   // ===== 3位決定戦 =====
-  { id: 'THIRD', phase: 'third', date: '2026-07-18', time: '09:00', home: 'TBD', away: 'TBD', city: 'マイアミ（米）', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  { id: 'THIRD', phase: 'third', date: '2026-07-19', time: '06:00', home: '準決勝敗者', away: '準決勝敗者', city: 'マイアミ（米）', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
 
   // ===== 決勝 =====
-  { id: 'FINAL', phase: 'final', date: '2026-07-19', time: '09:00', home: 'TBD', away: 'TBD', venue: 'ニューアークスタジアム', city: 'ニューヨーク（米）', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
+  { id: 'FINAL', phase: 'final', date: '2026-07-20', time: '04:00', home: '準決勝勝者', away: '準決勝勝者', venue: 'メットライフスタジアム', city: 'ニューヨーク（米）', broadcast: ['NHK総合', 'NHK BSP4K', 'DAZN'], isJapan: false, isTBD: true },
 ];
