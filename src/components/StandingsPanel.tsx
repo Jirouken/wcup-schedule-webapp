@@ -1,5 +1,6 @@
 import type { FC } from 'react';
 import type { TeamStanding } from '../hooks/useStandings';
+import { matches as allMatches } from '../data/matches';
 
 interface Props {
   groups: Record<string, TeamStanding[]>;
@@ -7,22 +8,34 @@ interface Props {
 
 const GROUP_LETTERS = ['A','B','C','D','E','F','G','H','I','J','K','L'];
 
-export const StandingsPanel: FC<Props> = ({ groups }) => {
-  const hasData = Object.keys(groups).length > 0;
-
-  if (!hasData) {
-    return (
-      <div className="text-center py-16 text-gray-500">
-        <div className="text-4xl mb-3">📊</div>
-        <div>大会開幕後に順位表が表示されます</div>
-      </div>
-    );
+function buildInitialGroups(): Record<string, TeamStanding[]> {
+  const teamsByGroup: Record<string, Set<string>> = {};
+  for (const m of allMatches) {
+    if (m.phase !== 'group' || !m.group) continue;
+    if (!teamsByGroup[m.group]) teamsByGroup[m.group] = new Set();
+    teamsByGroup[m.group].add(m.home);
+    teamsByGroup[m.group].add(m.away);
   }
+  const result: Record<string, TeamStanding[]> = {};
+  for (const [letter, teams] of Object.entries(teamsByGroup)) {
+    result[letter] = Array.from(teams).map((teamJa, i) => ({
+      position: i + 1, teamJa,
+      played: 0, won: 0, draw: 0, lost: 0,
+      goalsFor: 0, goalsAgainst: 0, goalDifference: 0, points: 0,
+    }));
+  }
+  return result;
+}
+
+const initialGroups = buildInitialGroups();
+
+export const StandingsPanel: FC<Props> = ({ groups }) => {
+  const displayGroups = Object.keys(groups).length > 0 ? groups : initialGroups;
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
       {GROUP_LETTERS.map(letter => {
-        const table = groups[letter];
+        const table = displayGroups[letter];
         if (!table) return null;
         return (
           <div key={letter} className="bg-gray-900/60 border border-gray-700/50 rounded-lg overflow-hidden">
