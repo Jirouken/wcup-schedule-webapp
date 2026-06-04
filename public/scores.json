@@ -1,1 +1,941 @@
-{"lastUpdated":null,"matches":[]}
+{
+  "lastUpdated": "2026-06-04T19:47:46.196Z",
+  "matches": [
+    {
+      "date": "2026-06-12",
+      "time": "04:00",
+      "homeJa": "メキシコ",
+      "awayJa": "南アフリカ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-12",
+      "time": "11:00",
+      "homeJa": "South Korea",
+      "awayJa": "チェコ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-13",
+      "time": "04:00",
+      "homeJa": "カナダ",
+      "awayJa": "ボスニア・ヘルツェゴビナ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-13",
+      "time": "10:00",
+      "homeJa": "アメリカ",
+      "awayJa": "パラグアイ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-14",
+      "time": "04:00",
+      "homeJa": "カタール",
+      "awayJa": "スイス",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-14",
+      "time": "07:00",
+      "homeJa": "ブラジル",
+      "awayJa": "モロッコ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-14",
+      "time": "10:00",
+      "homeJa": "ハイチ",
+      "awayJa": "スコットランド",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-14",
+      "time": "13:00",
+      "homeJa": "オーストラリア",
+      "awayJa": "トルコ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-15",
+      "time": "02:00",
+      "homeJa": "ドイツ",
+      "awayJa": "キュラソー",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-15",
+      "time": "05:00",
+      "homeJa": "オランダ",
+      "awayJa": "日本",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-15",
+      "time": "08:00",
+      "homeJa": "コートジボワール",
+      "awayJa": "エクアドル",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-15",
+      "time": "11:00",
+      "homeJa": "スウェーデン",
+      "awayJa": "チュニジア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-16",
+      "time": "01:00",
+      "homeJa": "スペイン",
+      "awayJa": "Cape Verde Islands",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-16",
+      "time": "04:00",
+      "homeJa": "ベルギー",
+      "awayJa": "エジプト",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-16",
+      "time": "07:00",
+      "homeJa": "サウジアラビア",
+      "awayJa": "ウルグアイ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-16",
+      "time": "10:00",
+      "homeJa": "イラン",
+      "awayJa": "ニュージーランド",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-17",
+      "time": "04:00",
+      "homeJa": "フランス",
+      "awayJa": "セネガル",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-17",
+      "time": "07:00",
+      "homeJa": "イラク",
+      "awayJa": "ノルウェー",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-17",
+      "time": "10:00",
+      "homeJa": "アルゼンチン",
+      "awayJa": "アルジェリア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-17",
+      "time": "13:00",
+      "homeJa": "オーストリア",
+      "awayJa": "ヨルダン",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-18",
+      "time": "02:00",
+      "homeJa": "ポルトガル",
+      "awayJa": "DRコンゴ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-18",
+      "time": "05:00",
+      "homeJa": "イングランド",
+      "awayJa": "クロアチア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-18",
+      "time": "08:00",
+      "homeJa": "ガーナ",
+      "awayJa": "パナマ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-18",
+      "time": "11:00",
+      "homeJa": "ウズベキスタン",
+      "awayJa": "コロンビア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-19",
+      "time": "01:00",
+      "homeJa": "チェコ",
+      "awayJa": "南アフリカ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-19",
+      "time": "04:00",
+      "homeJa": "スイス",
+      "awayJa": "ボスニア・ヘルツェゴビナ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-19",
+      "time": "07:00",
+      "homeJa": "カナダ",
+      "awayJa": "カタール",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-19",
+      "time": "10:00",
+      "homeJa": "メキシコ",
+      "awayJa": "South Korea",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-20",
+      "time": "04:00",
+      "homeJa": "アメリカ",
+      "awayJa": "オーストラリア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-20",
+      "time": "07:00",
+      "homeJa": "スコットランド",
+      "awayJa": "モロッコ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-20",
+      "time": "09:30",
+      "homeJa": "ブラジル",
+      "awayJa": "ハイチ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-20",
+      "time": "12:00",
+      "homeJa": "トルコ",
+      "awayJa": "パラグアイ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-21",
+      "time": "02:00",
+      "homeJa": "オランダ",
+      "awayJa": "スウェーデン",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-21",
+      "time": "05:00",
+      "homeJa": "ドイツ",
+      "awayJa": "コートジボワール",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-21",
+      "time": "09:00",
+      "homeJa": "エクアドル",
+      "awayJa": "キュラソー",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-21",
+      "time": "13:00",
+      "homeJa": "チュニジア",
+      "awayJa": "日本",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-22",
+      "time": "01:00",
+      "homeJa": "スペイン",
+      "awayJa": "サウジアラビア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-22",
+      "time": "04:00",
+      "homeJa": "ベルギー",
+      "awayJa": "イラン",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-22",
+      "time": "07:00",
+      "homeJa": "ウルグアイ",
+      "awayJa": "Cape Verde Islands",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-22",
+      "time": "10:00",
+      "homeJa": "ニュージーランド",
+      "awayJa": "エジプト",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-23",
+      "time": "02:00",
+      "homeJa": "アルゼンチン",
+      "awayJa": "オーストリア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-23",
+      "time": "06:00",
+      "homeJa": "フランス",
+      "awayJa": "イラク",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-23",
+      "time": "09:00",
+      "homeJa": "ノルウェー",
+      "awayJa": "セネガル",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-23",
+      "time": "12:00",
+      "homeJa": "ヨルダン",
+      "awayJa": "アルジェリア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-24",
+      "time": "02:00",
+      "homeJa": "ポルトガル",
+      "awayJa": "ウズベキスタン",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-24",
+      "time": "05:00",
+      "homeJa": "イングランド",
+      "awayJa": "ガーナ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-24",
+      "time": "08:00",
+      "homeJa": "パナマ",
+      "awayJa": "クロアチア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-24",
+      "time": "11:00",
+      "homeJa": "コロンビア",
+      "awayJa": "DRコンゴ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-25",
+      "time": "04:00",
+      "homeJa": "スイス",
+      "awayJa": "カナダ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-25",
+      "time": "04:00",
+      "homeJa": "ボスニア・ヘルツェゴビナ",
+      "awayJa": "カタール",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-25",
+      "time": "07:00",
+      "homeJa": "モロッコ",
+      "awayJa": "ハイチ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-25",
+      "time": "07:00",
+      "homeJa": "スコットランド",
+      "awayJa": "ブラジル",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-25",
+      "time": "10:00",
+      "homeJa": "チェコ",
+      "awayJa": "メキシコ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-25",
+      "time": "10:00",
+      "homeJa": "南アフリカ",
+      "awayJa": "South Korea",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-26",
+      "time": "05:00",
+      "homeJa": "エクアドル",
+      "awayJa": "ドイツ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-26",
+      "time": "05:00",
+      "homeJa": "キュラソー",
+      "awayJa": "コートジボワール",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-26",
+      "time": "08:00",
+      "homeJa": "チュニジア",
+      "awayJa": "オランダ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-26",
+      "time": "08:00",
+      "homeJa": "日本",
+      "awayJa": "スウェーデン",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-26",
+      "time": "11:00",
+      "homeJa": "トルコ",
+      "awayJa": "アメリカ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-26",
+      "time": "11:00",
+      "homeJa": "パラグアイ",
+      "awayJa": "オーストラリア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-27",
+      "time": "04:00",
+      "homeJa": "ノルウェー",
+      "awayJa": "フランス",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-27",
+      "time": "04:00",
+      "homeJa": "セネガル",
+      "awayJa": "イラク",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-27",
+      "time": "09:00",
+      "homeJa": "ウルグアイ",
+      "awayJa": "スペイン",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-27",
+      "time": "09:00",
+      "homeJa": "Cape Verde Islands",
+      "awayJa": "サウジアラビア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-27",
+      "time": "12:00",
+      "homeJa": "ニュージーランド",
+      "awayJa": "ベルギー",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-27",
+      "time": "12:00",
+      "homeJa": "エジプト",
+      "awayJa": "イラン",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-28",
+      "time": "06:00",
+      "homeJa": "パナマ",
+      "awayJa": "イングランド",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-28",
+      "time": "06:00",
+      "homeJa": "クロアチア",
+      "awayJa": "ガーナ",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-28",
+      "time": "08:30",
+      "homeJa": "コロンビア",
+      "awayJa": "ポルトガル",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-28",
+      "time": "08:30",
+      "homeJa": "DRコンゴ",
+      "awayJa": "ウズベキスタン",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-28",
+      "time": "11:00",
+      "homeJa": "ヨルダン",
+      "awayJa": "アルゼンチン",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-28",
+      "time": "11:00",
+      "homeJa": "アルジェリア",
+      "awayJa": "オーストリア",
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-29",
+      "time": "04:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-30",
+      "time": "02:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-30",
+      "time": "05:30",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-06-30",
+      "time": "10:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-01",
+      "time": "02:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-01",
+      "time": "06:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-01",
+      "time": "10:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-02",
+      "time": "01:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-02",
+      "time": "05:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-02",
+      "time": "09:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-03",
+      "time": "04:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-03",
+      "time": "08:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-03",
+      "time": "12:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-04",
+      "time": "03:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-04",
+      "time": "07:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-04",
+      "time": "10:30",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-05",
+      "time": "02:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-05",
+      "time": "06:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-06",
+      "time": "05:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-06",
+      "time": "09:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-07",
+      "time": "04:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-07",
+      "time": "09:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-08",
+      "time": "01:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-08",
+      "time": "05:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-10",
+      "time": "05:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-11",
+      "time": "04:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-12",
+      "time": "06:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-12",
+      "time": "10:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-15",
+      "time": "04:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-16",
+      "time": "04:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-19",
+      "time": "06:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "date": "2026-07-20",
+      "time": "04:00",
+      "homeJa": null,
+      "awayJa": null,
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
+    }
+  ]
+}
