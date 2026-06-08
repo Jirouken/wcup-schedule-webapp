@@ -10,10 +10,11 @@ import { MatchList } from './components/MatchList';
 import { WatchList } from './components/WatchList';
 import { StandingsPanel } from './components/StandingsPanel';
 import { TournamentBracket } from './components/TournamentBracket';
+import { SimulationPanel } from './components/SimulationPanel';
 import { BroadcastInfoBanner } from './components/BroadcastInfoBanner';
 import './index.css';
 
-type Tab = 'matches' | 'watchlist' | 'standings' | 'bracket';
+type Tab = 'matches' | 'watchlist' | 'standings' | 'bracket' | 'sim';
 
 const defaultFilters: Filters = {
   phase: 'all',
@@ -90,6 +91,16 @@ function App() {
             }`}
           >
             🏆 トーナメント表
+          </button>
+          <button
+            onClick={() => setTab('sim')}
+            className={`px-4 py-2 text-sm font-medium rounded-t-lg transition-colors ${
+              tab === 'sim'
+                ? 'bg-gray-800 text-amber-400 border-t border-x border-gray-700'
+                : 'text-gray-400 hover:text-gray-200'
+            }`}
+          >
+            🔮 シミュレーション
           </button>
         </div>
       </div>
@@ -172,8 +183,10 @@ function App() {
           />
         ) : tab === 'standings' ? (
           <StandingsPanel groups={standings.groups} />
-        ) : (
+        ) : tab === 'bracket' ? (
           <TournamentBracket getScore={getScore} />
+        ) : (
+          <SimulationPanel />
         )}
       </div>
     </div>
