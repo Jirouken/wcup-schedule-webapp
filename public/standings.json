@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T17:52:03.220Z",
+  "lastUpdated": "2026-06-12T19:48:32.455Z",
   "groups": {
     "A": [
       {
@@ -55,29 +55,17 @@
       {
         "position": 1,
         "teamJa": "ボスニア・ヘルツェゴビナ",
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "draw": 0,
         "lost": 0,
-        "goalsFor": 0,
+        "goalsFor": 1,
         "goalsAgainst": 0,
-        "goalDifference": 0,
-        "points": 0
+        "goalDifference": 1,
+        "points": 3
       },
       {
-        "position": 1,
-        "teamJa": "カナダ",
-        "played": 0,
-        "won": 0,
-        "draw": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
-        "points": 0
-      },
-      {
-        "position": 1,
+        "position": 2,
         "teamJa": "カタール",
         "played": 0,
         "won": 0,
@@ -89,7 +77,7 @@
         "points": 0
       },
       {
-        "position": 1,
+        "position": 2,
         "teamJa": "スイス",
         "played": 0,
         "won": 0,
@@ -98,6 +86,18 @@
         "goalsFor": 0,
         "goalsAgainst": 0,
         "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 4,
+        "teamJa": "カナダ",
+        "played": 1,
+        "won": 0,
+        "draw": 0,
+        "lost": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "goalDifference": -1,
         "points": 0
       }
     ],
