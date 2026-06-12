@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T00:05:34.201Z",
+  "lastUpdated": "2026-06-12T04:35:52.084Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -13,11 +13,11 @@
     {
       "date": "2026-06-12",
       "time": "11:00",
-      "homeJa": "South Korea",
+      "homeJa": "韓国",
       "awayJa": "チェコ",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1
     },
     {
       "date": "2026-06-13",
@@ -113,7 +113,7 @@
       "date": "2026-06-16",
       "time": "01:00",
       "homeJa": "スペイン",
-      "awayJa": "Cape Verde Islands",
+      "awayJa": "カーボベルデ",
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null
@@ -248,7 +248,7 @@
       "date": "2026-06-19",
       "time": "10:00",
       "homeJa": "メキシコ",
-      "awayJa": "South Korea",
+      "awayJa": "韓国",
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null
@@ -347,7 +347,7 @@
       "date": "2026-06-22",
       "time": "07:00",
       "homeJa": "ウルグアイ",
-      "awayJa": "Cape Verde Islands",
+      "awayJa": "カーボベルデ",
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null
@@ -482,7 +482,7 @@
       "date": "2026-06-25",
       "time": "10:00",
       "homeJa": "南アフリカ",
-      "awayJa": "South Korea",
+      "awayJa": "韓国",
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null
@@ -571,7 +571,7 @@
     {
       "date": "2026-06-27",
       "time": "09:00",
-      "homeJa": "Cape Verde Islands",
+      "homeJa": "カーボベルデ",
       "awayJa": "サウジアラビア",
       "status": "SCHEDULED",
       "homeScore": null,

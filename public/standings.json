@@ -1,1 +1,605 @@
-{"lastUpdated":null,"groups":{}}
+{
+  "lastUpdated": "2026-06-12T04:35:52.272Z",
+  "groups": {
+    "Group A": [
+      {
+        "position": 1,
+        "teamJa": "メキシコ",
+        "played": 1,
+        "won": 1,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "goalDifference": 2,
+        "points": 3
+      },
+      {
+        "position": 2,
+        "teamJa": "韓国",
+        "played": 1,
+        "won": 1,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": 1,
+        "points": 3
+      },
+      {
+        "position": 3,
+        "teamJa": "チェコ",
+        "played": 1,
+        "won": 0,
+        "draw": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": -1,
+        "points": 0
+      },
+      {
+        "position": 4,
+        "teamJa": "南アフリカ",
+        "played": 1,
+        "won": 0,
+        "draw": 0,
+        "lost": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 2,
+        "goalDifference": -2,
+        "points": 0
+      }
+    ],
+    "Group B": [
+      {
+        "position": 1,
+        "teamJa": "ボスニア・ヘルツェゴビナ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "カナダ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "カタール",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "スイス",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      }
+    ],
+    "Group C": [
+      {
+        "position": 1,
+        "teamJa": "ブラジル",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "ハイチ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "モロッコ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "スコットランド",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      }
+    ],
+    "Group D": [
+      {
+        "position": 1,
+        "teamJa": "オーストラリア",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "パラグアイ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "トルコ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "アメリカ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      }
+    ],
+    "Group E": [
+      {
+        "position": 1,
+        "teamJa": "キュラソー",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "ドイツ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "エクアドル",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "コートジボワール",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      }
+    ],
+    "Group F": [
+      {
+        "position": 1,
+        "teamJa": "日本",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "オランダ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "スウェーデン",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "チュニジア",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      }
+    ],
+    "Group G": [
+      {
+        "position": 1,
+        "teamJa": "エジプト",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "ベルギー",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "イラン",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "ニュージーランド",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      }
+    ],
+    "Group H": [
+      {
+        "position": 1,
+        "teamJa": "カーボベルデ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "サウジアラビア",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "スペイン",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "ウルグアイ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      }
+    ],
+    "Group I": [
+      {
+        "position": 1,
+        "teamJa": "フランス",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "イラク",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "ノルウェー",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "セネガル",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      }
+    ],
+    "Group J": [
+      {
+        "position": 1,
+        "teamJa": "アルジェリア",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "アルゼンチン",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "ヨルダン",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "オーストリア",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      }
+    ],
+    "Group K": [
+      {
+        "position": 1,
+        "teamJa": "DRコンゴ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "コロンビア",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "ポルトガル",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "ウズベキスタン",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      }
+    ],
+    "Group L": [
+      {
+        "position": 1,
+        "teamJa": "イングランド",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "ガーナ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "クロアチア",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      },
+      {
+        "position": 1,
+        "teamJa": "パナマ",
+        "played": 0,
+        "won": 0,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 0
+      }
+    ]
+  }
+}
