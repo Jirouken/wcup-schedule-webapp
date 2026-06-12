@@ -4,7 +4,7 @@ const API_KEY = process.env.FOOTBALL_DATA_API_KEY;
 const API_BASE = 'https://api.football-data.org/v4';
 
 const EN_TO_JA = {
-  'Mexico': 'メキシコ', 'South Africa': '南アフリカ', 'Korea Republic': '韓国',
+  'Mexico': 'メキシコ', 'South Africa': '南アフリカ', 'Korea Republic': '韓国', 'South Korea': '韓国',
   'Czech Republic': 'チェコ', 'Czechia': 'チェコ',
   'Canada': 'カナダ', 'Bosnia-Herzegovina': 'ボスニア・ヘルツェゴビナ',
   'Bosnia and Herzegovina': 'ボスニア・ヘルツェゴビナ', 'Qatar': 'カタール', 'Switzerland': 'スイス',
@@ -15,7 +15,7 @@ const EN_TO_JA = {
   "Côte d'Ivoire": 'コートジボワール', 'Ivory Coast': 'コートジボワール', 'Ecuador': 'エクアドル',
   'Netherlands': 'オランダ', 'Japan': '日本', 'Sweden': 'スウェーデン', 'Tunisia': 'チュニジア',
   'Belgium': 'ベルギー', 'Egypt': 'エジプト', 'Iran': 'イラン', 'New Zealand': 'ニュージーランド',
-  'Spain': 'スペイン', 'Cape Verde': 'カーボベルデ', 'Saudi Arabia': 'サウジアラビア', 'Uruguay': 'ウルグアイ',
+  'Spain': 'スペイン', 'Cape Verde': 'カーボベルデ', 'Cape Verde Islands': 'カーボベルデ', 'Saudi Arabia': 'サウジアラビア', 'Uruguay': 'ウルグアイ',
   'France': 'フランス', 'Senegal': 'セネガル', 'Iraq': 'イラク', 'Norway': 'ノルウェー',
   'Argentina': 'アルゼンチン', 'Algeria': 'アルジェリア', 'Austria': 'オーストリア', 'Jordan': 'ヨルダン',
   'Portugal': 'ポルトガル', 'DR Congo': 'DRコンゴ', 'Congo DR': 'DRコンゴ',

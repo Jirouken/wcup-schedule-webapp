@@ -27,7 +27,7 @@ export function useScores() {
 
   useEffect(() => {
     load();
-    const interval = setInterval(load, 5 * 60 * 1000);
+    const interval = setInterval(load, 60 * 1000);
     return () => clearInterval(interval);
   }, []);
 
