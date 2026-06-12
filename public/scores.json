@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-06-11T22:28:28.639Z",
+  "lastUpdated": "2026-06-12T00:05:34.201Z",
   "matches": [
     {
       "date": "2026-06-12",
       "time": "04:00",
       "homeJa": "メキシコ",
       "awayJa": "南アフリカ",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "date": "2026-06-12",
