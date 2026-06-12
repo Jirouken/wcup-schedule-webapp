@@ -67,7 +67,7 @@ async function main() {
   const groups = {};
   for (const s of standings) {
     if (s.type !== 'TOTAL') continue;
-    const groupKey = s.group?.replace('GROUP_', '') ?? s.stage;
+    const groupKey = s.group?.replace(/^(GROUP_|Group )/i, '') ?? s.stage;
     groups[groupKey] = s.table.map(row => ({
       position: row.position,
       teamJa: toJa(row.team.name),
