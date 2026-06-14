@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T16:09:36.499Z",
+  "lastUpdated": "2026-06-14T17:46:04.467Z",
   "groups": {
     "A": [
       {
@@ -205,29 +205,29 @@
       {
         "position": 1,
         "teamJa": "キュラソー",
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
         "goalDifference": 0,
-        "points": 0
+        "points": 1
       },
       {
         "position": 1,
         "teamJa": "ドイツ",
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
         "goalDifference": 0,
-        "points": 0
+        "points": 1
       },
       {
-        "position": 1,
+        "position": 3,
         "teamJa": "エクアドル",
         "played": 0,
         "won": 0,
@@ -239,7 +239,7 @@
         "points": 0
       },
       {
-        "position": 1,
+        "position": 3,
         "teamJa": "コートジボワール",
         "played": 0,
         "won": 0,
