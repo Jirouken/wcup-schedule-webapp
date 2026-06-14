@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T21:49:41.233Z",
+  "lastUpdated": "2026-06-14T22:56:09.771Z",
   "groups": {
     "A": [
       {
@@ -254,18 +254,30 @@
     "F": [
       {
         "position": 1,
-        "teamJa": "オランダ",
+        "teamJa": "日本",
         "played": 1,
-        "won": 1,
-        "draw": 0,
+        "won": 0,
+        "draw": 1,
         "lost": 0,
         "goalsFor": 2,
-        "goalsAgainst": 1,
-        "goalDifference": 1,
-        "points": 3
+        "goalsAgainst": 2,
+        "goalDifference": 0,
+        "points": 1
       },
       {
-        "position": 2,
+        "position": 1,
+        "teamJa": "オランダ",
+        "played": 1,
+        "won": 0,
+        "draw": 1,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "goalDifference": 0,
+        "points": 1
+      },
+      {
+        "position": 3,
         "teamJa": "スウェーデン",
         "played": 0,
         "won": 0,
@@ -277,7 +289,7 @@
         "points": 0
       },
       {
-        "position": 2,
+        "position": 3,
         "teamJa": "チュニジア",
         "played": 0,
         "won": 0,
@@ -286,18 +298,6 @@
         "goalsFor": 0,
         "goalsAgainst": 0,
         "goalDifference": 0,
-        "points": 0
-      },
-      {
-        "position": 4,
-        "teamJa": "日本",
-        "played": 1,
-        "won": 0,
-        "draw": 0,
-        "lost": 1,
-        "goalsFor": 1,
-        "goalsAgainst": 2,
-        "goalDifference": -1,
         "points": 0
       }
     ],
