@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T02:05:30.503Z",
+  "lastUpdated": "2026-06-14T06:55:05.166Z",
   "groups": {
     "A": [
       {
@@ -167,25 +167,25 @@
       {
         "position": 2,
         "teamJa": "オーストラリア",
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "draw": 0,
         "lost": 0,
-        "goalsFor": 0,
+        "goalsFor": 2,
         "goalsAgainst": 0,
-        "goalDifference": 0,
-        "points": 0
+        "goalDifference": 2,
+        "points": 3
       },
       {
-        "position": 2,
+        "position": 3,
         "teamJa": "トルコ",
-        "played": 0,
+        "played": 1,
         "won": 0,
         "draw": 0,
-        "lost": 0,
+        "lost": 1,
         "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
+        "goalsAgainst": 2,
+        "goalDifference": -2,
         "points": 0
       },
       {
