@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T16:28:22.262Z",
+  "lastUpdated": "2026-06-15T20:03:24.348Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -114,7 +114,7 @@
       "time": "01:00",
       "homeJa": "スペイン",
       "awayJa": "カーボベルデ",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 0
     },
@@ -123,9 +123,9 @@
       "time": "04:00",
       "homeJa": "ベルギー",
       "awayJa": "エジプト",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "PAUSED",
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "date": "2026-06-16",
