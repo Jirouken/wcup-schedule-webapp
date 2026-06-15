@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T00:07:15.346Z",
+  "lastUpdated": "2026-06-15T05:25:04.098Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -96,18 +96,18 @@
       "time": "08:00",
       "homeJa": "コートジボワール",
       "awayJa": "エクアドル",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "date": "2026-06-15",
       "time": "11:00",
       "homeJa": "スウェーデン",
       "awayJa": "チュニジア",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "FINISHED",
+      "homeScore": 5,
+      "awayScore": 1
     },
     {
       "date": "2026-06-16",
