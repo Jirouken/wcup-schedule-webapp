@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T22:56:09.771Z",
+  "lastUpdated": "2026-06-15T00:07:15.528Z",
   "groups": {
     "A": [
       {
@@ -217,26 +217,26 @@
       {
         "position": 2,
         "teamJa": "エクアドル",
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
         "goalDifference": 0,
-        "points": 0
+        "points": 1
       },
       {
         "position": 2,
         "teamJa": "コートジボワール",
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
         "goalDifference": 0,
-        "points": 0
+        "points": 1
       },
       {
         "position": 4,
