@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T20:03:24.493Z",
+  "lastUpdated": "2026-06-15T22:25:18.042Z",
   "groups": {
     "A": [
       {
@@ -304,18 +304,30 @@
     "G": [
       {
         "position": 1,
-        "teamJa": "エジプト",
+        "teamJa": "ベルギー",
         "played": 1,
-        "won": 1,
-        "draw": 0,
+        "won": 0,
+        "draw": 1,
         "lost": 0,
         "goalsFor": 1,
-        "goalsAgainst": 0,
-        "goalDifference": 1,
-        "points": 3
+        "goalsAgainst": 1,
+        "goalDifference": 0,
+        "points": 1
       },
       {
         "position": 2,
+        "teamJa": "エジプト",
+        "played": 1,
+        "won": 0,
+        "draw": 1,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "goalDifference": 0,
+        "points": 1
+      },
+      {
+        "position": 3,
         "teamJa": "イラン",
         "played": 0,
         "won": 0,
@@ -327,7 +339,7 @@
         "points": 0
       },
       {
-        "position": 2,
+        "position": 3,
         "teamJa": "ニュージーランド",
         "played": 0,
         "won": 0,
@@ -337,24 +349,12 @@
         "goalsAgainst": 0,
         "goalDifference": 0,
         "points": 0
-      },
-      {
-        "position": 4,
-        "teamJa": "ベルギー",
-        "played": 1,
-        "won": 0,
-        "draw": 0,
-        "lost": 1,
-        "goalsFor": 0,
-        "goalsAgainst": 1,
-        "goalDifference": -1,
-        "points": 0
       }
     ],
     "H": [
       {
         "position": 1,
-        "teamJa": "カーボベルデ",
+        "teamJa": "サウジアラビア",
         "played": 1,
         "won": 0,
         "draw": 1,
@@ -366,6 +366,18 @@
       },
       {
         "position": 1,
+        "teamJa": "ウルグアイ",
+        "played": 1,
+        "won": 0,
+        "draw": 1,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 1
+      },
+      {
+        "position": 3,
         "teamJa": "スペイン",
         "played": 1,
         "won": 0,
@@ -377,28 +389,16 @@
         "points": 1
       },
       {
-        "position": 3,
-        "teamJa": "サウジアラビア",
-        "played": 0,
+        "position": 4,
+        "teamJa": "カーボベルデ",
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
         "goalDifference": 0,
-        "points": 0
-      },
-      {
-        "position": 3,
-        "teamJa": "ウルグアイ",
-        "played": 0,
-        "won": 0,
-        "draw": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
-        "points": 0
+        "points": 1
       }
     ],
     "I": [

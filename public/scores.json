@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T20:03:24.348Z",
+  "lastUpdated": "2026-06-15T22:25:17.845Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -123,8 +123,8 @@
       "time": "04:00",
       "homeJa": "ベルギー",
       "awayJa": "エジプト",
-      "status": "PAUSED",
-      "homeScore": 0,
+      "status": "FINISHED",
+      "homeScore": 1,
       "awayScore": 1
     },
     {
@@ -132,9 +132,9 @@
       "time": "07:00",
       "homeJa": "サウジアラビア",
       "awayJa": "ウルグアイ",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "IN_PLAY",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "date": "2026-06-16",
