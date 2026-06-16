@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T05:31:09.337Z",
+  "lastUpdated": "2026-06-16T10:27:48.949Z",
   "groups": {
     "A": [
       {
@@ -304,7 +304,7 @@
     "G": [
       {
         "position": 1,
-        "teamJa": "イラン",
+        "teamJa": "ニュージーランド",
         "played": 1,
         "won": 0,
         "draw": 1,
@@ -315,8 +315,8 @@
         "points": 1
       },
       {
-        "position": 1,
-        "teamJa": "ニュージーランド",
+        "position": 2,
+        "teamJa": "イラン",
         "played": 1,
         "won": 0,
         "draw": 1,
@@ -354,7 +354,7 @@
     "H": [
       {
         "position": 1,
-        "teamJa": "サウジアラビア",
+        "teamJa": "ウルグアイ",
         "played": 1,
         "won": 0,
         "draw": 1,
@@ -365,8 +365,8 @@
         "points": 1
       },
       {
-        "position": 1,
-        "teamJa": "ウルグアイ",
+        "position": 2,
+        "teamJa": "サウジアラビア",
         "played": 1,
         "won": 0,
         "draw": 1,
