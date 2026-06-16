@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T21:44:41.351Z",
+  "lastUpdated": "2026-06-16T23:11:50.824Z",
   "groups": {
     "A": [
       {
@@ -416,26 +416,26 @@
       },
       {
         "position": 2,
-        "teamJa": "イラク",
-        "played": 0,
-        "won": 0,
+        "teamJa": "ノルウェー",
+        "played": 1,
+        "won": 1,
         "draw": 0,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
-        "points": 0
+        "goalsFor": 2,
+        "goalsAgainst": 1,
+        "goalDifference": 1,
+        "points": 3
       },
       {
-        "position": 2,
-        "teamJa": "ノルウェー",
-        "played": 0,
+        "position": 3,
+        "teamJa": "イラク",
+        "played": 1,
         "won": 0,
         "draw": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "goalDifference": -1,
         "points": 0
       },
       {
