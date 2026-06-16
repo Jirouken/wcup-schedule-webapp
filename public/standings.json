@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T15:28:05.089Z",
+  "lastUpdated": "2026-06-16T19:03:07.772Z",
   "groups": {
     "A": [
       {
@@ -405,17 +405,29 @@
       {
         "position": 1,
         "teamJa": "フランス",
-        "played": 0,
+        "played": 1,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 0,
         "goalsFor": 0,
         "goalsAgainst": 0,
         "goalDifference": 0,
-        "points": 0
+        "points": 1
       },
       {
         "position": 1,
+        "teamJa": "セネガル",
+        "played": 1,
+        "won": 0,
+        "draw": 1,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "goalDifference": 0,
+        "points": 1
+      },
+      {
+        "position": 3,
         "teamJa": "イラク",
         "played": 0,
         "won": 0,
@@ -427,20 +439,8 @@
         "points": 0
       },
       {
-        "position": 1,
+        "position": 3,
         "teamJa": "ノルウェー",
-        "played": 0,
-        "won": 0,
-        "draw": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
-        "points": 0
-      },
-      {
-        "position": 1,
-        "teamJa": "セネガル",
         "played": 0,
         "won": 0,
         "draw": 0,
