@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T01:41:30.884Z",
+  "lastUpdated": "2026-06-17T06:50:58.425Z",
   "groups": {
     "A": [
       {
@@ -459,33 +459,33 @@
         "won": 1,
         "draw": 0,
         "lost": 0,
-        "goalsFor": 1,
+        "goalsFor": 3,
         "goalsAgainst": 0,
-        "goalDifference": 1,
+        "goalDifference": 3,
         "points": 3
       },
       {
         "position": 2,
-        "teamJa": "ヨルダン",
-        "played": 0,
-        "won": 0,
+        "teamJa": "オーストリア",
+        "played": 1,
+        "won": 1,
         "draw": 0,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
-        "points": 0
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "goalDifference": 2,
+        "points": 3
       },
       {
-        "position": 2,
-        "teamJa": "オーストリア",
-        "played": 0,
+        "position": 3,
+        "teamJa": "ヨルダン",
+        "played": 1,
         "won": 0,
         "draw": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "goalDifference": -2,
         "points": 0
       },
       {
@@ -496,8 +496,8 @@
         "draw": 0,
         "lost": 1,
         "goalsFor": 0,
-        "goalsAgainst": 1,
-        "goalDifference": -1,
+        "goalsAgainst": 3,
+        "goalDifference": -3,
         "points": 0
       }
     ],
