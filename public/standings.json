@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T19:47:14.228Z",
+  "lastUpdated": "2026-06-17T21:46:53.066Z",
   "groups": {
     "A": [
       {
@@ -555,17 +555,17 @@
       {
         "position": 1,
         "teamJa": "イングランド",
-        "played": 0,
-        "won": 0,
+        "played": 1,
+        "won": 1,
         "draw": 0,
         "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
-        "points": 0
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "goalDifference": 1,
+        "points": 3
       },
       {
-        "position": 1,
+        "position": 2,
         "teamJa": "ガーナ",
         "played": 0,
         "won": 0,
@@ -577,8 +577,8 @@
         "points": 0
       },
       {
-        "position": 1,
-        "teamJa": "クロアチア",
+        "position": 2,
+        "teamJa": "パナマ",
         "played": 0,
         "won": 0,
         "draw": 0,
@@ -589,15 +589,15 @@
         "points": 0
       },
       {
-        "position": 1,
-        "teamJa": "パナマ",
-        "played": 0,
+        "position": 4,
+        "teamJa": "クロアチア",
+        "played": 1,
         "won": 0,
         "draw": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
+        "lost": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "goalDifference": -1,
         "points": 0
       }
     ]
