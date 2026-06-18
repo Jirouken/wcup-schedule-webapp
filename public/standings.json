@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T01:40:16.210Z",
+  "lastUpdated": "2026-06-18T06:27:41.362Z",
   "groups": {
     "A": [
       {
@@ -504,6 +504,18 @@
     "K": [
       {
         "position": 1,
+        "teamJa": "コロンビア",
+        "played": 1,
+        "won": 1,
+        "draw": 0,
+        "lost": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "goalDifference": 2,
+        "points": 3
+      },
+      {
+        "position": 2,
         "teamJa": "DRコンゴ",
         "played": 1,
         "won": 0,
@@ -515,7 +527,7 @@
         "points": 1
       },
       {
-        "position": 1,
+        "position": 2,
         "teamJa": "ポルトガル",
         "played": 1,
         "won": 0,
@@ -527,27 +539,15 @@
         "points": 1
       },
       {
-        "position": 3,
-        "teamJa": "コロンビア",
-        "played": 0,
-        "won": 0,
-        "draw": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
-        "points": 0
-      },
-      {
-        "position": 3,
+        "position": 4,
         "teamJa": "ウズベキスタン",
-        "played": 0,
+        "played": 1,
         "won": 0,
         "draw": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "goalDifference": 0,
+        "lost": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 3,
+        "goalDifference": -2,
         "points": 0
       }
     ],

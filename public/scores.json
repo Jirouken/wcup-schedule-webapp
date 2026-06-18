@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T01:40:16.033Z",
+  "lastUpdated": "2026-06-18T06:27:41.237Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -213,9 +213,9 @@
       "time": "11:00",
       "homeJa": "ウズベキスタン",
       "awayJa": "コロンビア",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 3
     },
     {
       "date": "2026-06-19",
