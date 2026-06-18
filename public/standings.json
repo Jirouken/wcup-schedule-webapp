@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T19:37:19.487Z",
+  "lastUpdated": "2026-06-18T21:36:42.624Z",
   "groups": {
     "A": [
       {
@@ -56,28 +56,16 @@
         "position": 1,
         "teamJa": "スイス",
         "played": 2,
-        "won": 0,
-        "draw": 2,
+        "won": 1,
+        "draw": 1,
         "lost": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "goalDifference": 0,
-        "points": 2
+        "goalsFor": 5,
+        "goalsAgainst": 2,
+        "goalDifference": 3,
+        "points": 4
       },
       {
         "position": 2,
-        "teamJa": "ボスニア・ヘルツェゴビナ",
-        "played": 2,
-        "won": 0,
-        "draw": 2,
-        "lost": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "goalDifference": 0,
-        "points": 2
-      },
-      {
-        "position": 3,
         "teamJa": "カナダ",
         "played": 1,
         "won": 0,
@@ -86,6 +74,18 @@
         "goalsFor": 1,
         "goalsAgainst": 1,
         "goalDifference": 0,
+        "points": 1
+      },
+      {
+        "position": 3,
+        "teamJa": "ボスニア・ヘルツェゴビナ",
+        "played": 2,
+        "won": 0,
+        "draw": 1,
+        "lost": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 5,
+        "goalDifference": -3,
         "points": 1
       },
       {

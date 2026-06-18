@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T19:37:19.366Z",
+  "lastUpdated": "2026-06-18T21:36:42.505Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -231,9 +231,9 @@
       "time": "04:00",
       "homeJa": "スイス",
       "awayJa": "ボスニア・ヘルツェゴビナ",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "FINISHED",
+      "homeScore": 4,
+      "awayScore": 1
     },
     {
       "date": "2026-06-19",
