@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T17:19:07.060Z",
+  "lastUpdated": "2026-06-18T19:37:19.366Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -222,9 +222,9 @@
       "time": "01:00",
       "homeJa": "チェコ",
       "awayJa": "南アフリカ",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeScore": 1,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "date": "2026-06-19",
