@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T21:36:42.505Z",
+  "lastUpdated": "2026-06-18T23:23:11.184Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -240,9 +240,9 @@
       "time": "07:00",
       "homeJa": "カナダ",
       "awayJa": "カタール",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "IN_PLAY",
+      "homeScore": 3,
+      "awayScore": 0
     },
     {
       "date": "2026-06-19",
