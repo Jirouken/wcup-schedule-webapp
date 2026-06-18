@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T13:59:03.622Z",
+  "lastUpdated": "2026-06-18T17:19:07.201Z",
   "groups": {
     "A": [
       {
@@ -29,25 +29,25 @@
       {
         "position": 3,
         "teamJa": "チェコ",
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "draw": 0,
         "lost": 1,
-        "goalsFor": 1,
+        "goalsFor": 2,
         "goalsAgainst": 2,
-        "goalDifference": -1,
-        "points": 0
+        "goalDifference": 0,
+        "points": 3
       },
       {
         "position": 4,
         "teamJa": "南アフリカ",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "draw": 0,
-        "lost": 1,
+        "lost": 2,
         "goalsFor": 0,
-        "goalsAgainst": 2,
-        "goalDifference": -2,
+        "goalsAgainst": 3,
+        "goalDifference": -3,
         "points": 0
       }
     ],
