@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T23:47:48.217Z",
+  "lastUpdated": "2026-06-20T01:55:11.241Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -267,7 +267,7 @@
       "time": "07:00",
       "homeJa": "スコットランド",
       "awayJa": "モロッコ",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeScore": 0,
       "awayScore": 1
     },
@@ -276,9 +276,9 @@
       "time": "09:30",
       "homeJa": "ブラジル",
       "awayJa": "ハイチ",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "IN_PLAY",
+      "homeScore": 3,
+      "awayScore": 0
     },
     {
       "date": "2026-06-20",
