@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T18:06:38.369Z",
+  "lastUpdated": "2026-06-20T19:52:29.118Z",
   "groups": {
     "A": [
       {
@@ -259,9 +259,9 @@
         "won": 1,
         "draw": 1,
         "lost": 0,
-        "goalsFor": 4,
-        "goalsAgainst": 2,
-        "goalDifference": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 3,
+        "goalDifference": 4,
         "points": 4
       },
       {
@@ -271,9 +271,9 @@
         "won": 1,
         "draw": 0,
         "lost": 1,
-        "goalsFor": 5,
-        "goalsAgainst": 3,
-        "goalDifference": 2,
+        "goalsFor": 6,
+        "goalsAgainst": 6,
+        "goalDifference": 0,
         "points": 3
       },
       {
