@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T21:02:19.592Z",
+  "lastUpdated": "2026-06-20T22:18:40.993Z",
   "groups": {
     "A": [
       {
@@ -204,26 +204,26 @@
     "E": [
       {
         "position": 1,
-        "teamJa": "コートジボワール",
+        "teamJa": "ドイツ",
         "played": 2,
         "won": 2,
         "draw": 0,
         "lost": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 0,
-        "goalDifference": 2,
+        "goalsFor": 9,
+        "goalsAgainst": 2,
+        "goalDifference": 7,
         "points": 6
       },
       {
         "position": 2,
-        "teamJa": "ドイツ",
+        "teamJa": "コートジボワール",
         "played": 2,
         "won": 1,
         "draw": 0,
         "lost": 1,
-        "goalsFor": 7,
+        "goalsFor": 2,
         "goalsAgainst": 2,
-        "goalDifference": 5,
+        "goalDifference": 0,
         "points": 3
       },
       {
