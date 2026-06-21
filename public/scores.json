@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T02:04:21.805Z",
+  "lastUpdated": "2026-06-21T07:02:58.550Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -321,9 +321,9 @@
       "time": "13:00",
       "homeJa": "チュニジア",
       "awayJa": "日本",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "FINISHED",
+      "homeScore": 0,
+      "awayScore": 4
     },
     {
       "date": "2026-06-22",
