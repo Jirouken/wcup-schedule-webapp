@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T23:38:53.411Z",
+  "lastUpdated": "2026-06-21T02:04:21.940Z",
   "groups": {
     "A": [
       {
@@ -229,26 +229,26 @@
       {
         "position": 3,
         "teamJa": "エクアドル",
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 1,
         "goalsFor": 0,
         "goalsAgainst": 1,
         "goalDifference": -1,
-        "points": 0
+        "points": 1
       },
       {
         "position": 4,
         "teamJa": "キュラソー",
-        "played": 1,
+        "played": 2,
         "won": 0,
-        "draw": 0,
+        "draw": 1,
         "lost": 1,
         "goalsFor": 1,
         "goalsAgainst": 7,
         "goalDifference": -6,
-        "points": 0
+        "points": 1
       }
     ],
     "F": [
