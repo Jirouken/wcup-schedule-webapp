@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T21:24:40.017Z",
+  "lastUpdated": "2026-06-21T22:41:15.808Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -348,9 +348,9 @@
       "time": "07:00",
       "homeJa": "ウルグアイ",
       "awayJa": "カーボベルデ",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "IN_PLAY",
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "date": "2026-06-22",
