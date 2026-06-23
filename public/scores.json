@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T00:18:02.536Z",
+  "lastUpdated": "2026-06-23T04:33:58.492Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -25,8 +25,8 @@
       "homeJa": "カナダ",
       "awayJa": "ボスニア・ヘルツェゴビナ",
       "status": "FINISHED",
-      "homeScore": null,
-      "awayScore": null
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "date": "2026-06-13",
@@ -375,8 +375,8 @@
       "time": "06:00",
       "homeJa": "フランス",
       "awayJa": "イラク",
-      "status": "IN_PLAY",
-      "homeScore": 2,
+      "status": "FINISHED",
+      "homeScore": 3,
       "awayScore": 0
     },
     {
@@ -384,18 +384,18 @@
       "time": "09:00",
       "homeJa": "ノルウェー",
       "awayJa": "セネガル",
-      "status": "IN_PLAY",
-      "homeScore": 0,
-      "awayScore": 0
+      "status": "FINISHED",
+      "homeScore": 3,
+      "awayScore": 2
     },
     {
       "date": "2026-06-23",
       "time": "12:00",
       "homeJa": "ヨルダン",
       "awayJa": "アルジェリア",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "IN_PLAY",
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "date": "2026-06-24",
