@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T18:23:48.594Z",
+  "lastUpdated": "2026-06-23T20:30:12.374Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -402,8 +402,8 @@
       "time": "02:00",
       "homeJa": "ポルトガル",
       "awayJa": "ウズベキスタン",
-      "status": "IN_PLAY",
-      "homeScore": 3,
+      "status": "FINISHED",
+      "homeScore": 5,
       "awayScore": 0
     },
     {
@@ -411,9 +411,9 @@
       "time": "05:00",
       "homeJa": "イングランド",
       "awayJa": "ガーナ",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "LIVE",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "date": "2026-06-24",
@@ -670,7 +670,7 @@
     {
       "date": "2026-06-30",
       "time": "05:30",
-      "homeJa": null,
+      "homeJa": "ドイツ",
       "awayJa": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -706,7 +706,7 @@
     {
       "date": "2026-07-01",
       "time": "10:00",
-      "homeJa": null,
+      "homeJa": "メキシコ",
       "awayJa": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -733,7 +733,7 @@
     {
       "date": "2026-07-02",
       "time": "09:00",
-      "homeJa": null,
+      "homeJa": "アメリカ",
       "awayJa": null,
       "status": "SCHEDULED",
       "homeScore": null,
