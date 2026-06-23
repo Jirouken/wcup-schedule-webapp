@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T16:30:22.073Z",
+  "lastUpdated": "2026-06-23T18:23:48.594Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -402,9 +402,9 @@
       "time": "02:00",
       "homeJa": "ポルトガル",
       "awayJa": "ウズベキスタン",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "IN_PLAY",
+      "homeScore": 3,
+      "awayScore": 0
     },
     {
       "date": "2026-06-24",
