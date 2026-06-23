@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T04:33:58.624Z",
+  "lastUpdated": "2026-06-23T08:06:16.276Z",
   "groups": {
     "A": [
       {
@@ -478,26 +478,26 @@
       },
       {
         "position": 3,
-        "teamJa": "ヨルダン",
+        "teamJa": "アルジェリア",
         "played": 2,
         "won": 1,
         "draw": 0,
         "lost": 1,
         "goalsFor": 2,
-        "goalsAgainst": 3,
-        "goalDifference": -1,
+        "goalsAgainst": 4,
+        "goalDifference": -2,
         "points": 3
       },
       {
         "position": 4,
-        "teamJa": "アルジェリア",
+        "teamJa": "ヨルダン",
         "played": 2,
         "won": 0,
         "draw": 0,
         "lost": 2,
-        "goalsFor": 0,
-        "goalsAgainst": 4,
-        "goalDifference": -4,
+        "goalsFor": 2,
+        "goalsAgainst": 5,
+        "goalDifference": -3,
         "points": 0
       }
     ],
