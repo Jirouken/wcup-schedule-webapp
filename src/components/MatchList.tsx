@@ -1,4 +1,5 @@
 import type { FC } from 'react';
+import { useRef, useLayoutEffect } from 'react';
 import { format, parseISO } from 'date-fns';
 import { ja } from 'date-fns/locale';
 import type { Match, Phase } from '../types/match';
@@ -31,6 +32,8 @@ const phaseOrder: Phase[] = ['group', 'round32', 'round16', 'quarter', 'semi', '
 const dayNames = ['日', '月', '火', '水', '木', '金', '土'];
 
 export const MatchList: FC<Props> = ({ matches, watched, onToggle, filters, viewMode, onViewModeChange, getScore }) => {
+  const todayRef = useRef<HTMLElement | null>(null);
+
   const filtered = matches.filter(m => {
     if (filters.phase !== 'all' && m.phase !== filters.phase) return false;
     if (filters.broadcaster !== 'all' && !m.broadcast.includes(filters.broadcaster)) return false;
@@ -38,6 +41,25 @@ export const MatchList: FC<Props> = ({ matches, watched, onToggle, filters, view
     if (filters.watchedOnly && !watched.has(m.id)) return false;
     return true;
   });
+
+  const sorted = [...filtered].sort((a, b) => {
+    const da = new Date(`${a.date}T${a.time}:00+09:00`).getTime();
+    const db = new Date(`${b.date}T${b.time}:00+09:00`).getTime();
+    return da - db;
+  });
+
+  const todayISO = new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const scrollToDate = sorted.find(m => m.date >= todayISO)?.date;
+
+  useLayoutEffect(() => {
+    if (viewMode !== 'date') return;
+    const el = todayRef.current;
+    if (!el) return;
+    const raf = requestAnimationFrame(() => {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    return () => cancelAnimationFrame(raf);
+  }, [viewMode]);
 
   if (filtered.length === 0) {
     return (
@@ -50,12 +72,6 @@ export const MatchList: FC<Props> = ({ matches, watched, onToggle, filters, view
       </>
     );
   }
-
-  const sorted = [...filtered].sort((a, b) => {
-    const da = new Date(`${a.date}T${a.time}:00+09:00`).getTime();
-    const db = new Date(`${b.date}T${b.time}:00+09:00`).getTime();
-    return da - db;
-  });
 
   const grouped = new Map<string, Match[]>();
 
@@ -99,7 +115,10 @@ export const MatchList: FC<Props> = ({ matches, watched, onToggle, filters, view
       <ViewModeToggle viewMode={viewMode} onChange={onViewModeChange} />
 
       {[...grouped.entries()].map(([label, ms]) => (
-        <section key={label}>
+        <section
+          key={label}
+          ref={viewMode === 'date' && ms[0]?.date === scrollToDate ? el => { todayRef.current = el; } : undefined}
+        >
           <h2 className="text-sm font-bold text-amber-400 mb-3 flex items-center gap-2">
             <span className="h-px flex-1 bg-amber-500/20" />
             {label}
