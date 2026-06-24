@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T22:24:45.651Z",
+  "lastUpdated": "2026-06-24T23:40:18.324Z",
   "groups": {
     "A": [
       {
@@ -106,13 +106,13 @@
         "position": 1,
         "teamJa": "ブラジル",
         "played": 3,
-        "won": 1,
-        "draw": 2,
+        "won": 2,
+        "draw": 1,
         "lost": 0,
-        "goalsFor": 4,
+        "goalsFor": 7,
         "goalsAgainst": 1,
-        "goalDifference": 3,
-        "points": 5
+        "goalDifference": 6,
+        "points": 7
       },
       {
         "position": 2,
@@ -121,8 +121,8 @@
         "won": 1,
         "draw": 2,
         "lost": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 1,
+        "goalsFor": 4,
+        "goalsAgainst": 3,
         "goalDifference": 1,
         "points": 5
       },
@@ -131,12 +131,12 @@
         "teamJa": "スコットランド",
         "played": 3,
         "won": 1,
-        "draw": 1,
-        "lost": 1,
+        "draw": 0,
+        "lost": 2,
         "goalsFor": 1,
-        "goalsAgainst": 1,
-        "goalDifference": 0,
-        "points": 4
+        "goalsAgainst": 4,
+        "goalDifference": -3,
+        "points": 3
       },
       {
         "position": 4,
@@ -145,8 +145,8 @@
         "won": 0,
         "draw": 1,
         "lost": 2,
-        "goalsFor": 0,
-        "goalsAgainst": 4,
+        "goalsFor": 2,
+        "goalsAgainst": 6,
         "goalDifference": -4,
         "points": 1
       }
