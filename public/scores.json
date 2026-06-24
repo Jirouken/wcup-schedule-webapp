@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T00:12:42.286Z",
+  "lastUpdated": "2026-06-24T04:36:56.430Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -420,18 +420,18 @@
       "time": "08:00",
       "homeJa": "パナマ",
       "awayJa": "クロアチア",
-      "status": "LIVE",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 1
     },
     {
       "date": "2026-06-24",
       "time": "11:00",
       "homeJa": "コロンビア",
       "awayJa": "DRコンゴ",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "FINISHED",
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "date": "2026-06-25",
@@ -670,7 +670,7 @@
     {
       "date": "2026-06-30",
       "time": "05:30",
-      "homeJa": "ドイツ",
+      "homeJa": null,
       "awayJa": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -706,7 +706,7 @@
     {
       "date": "2026-07-01",
       "time": "10:00",
-      "homeJa": "メキシコ",
+      "homeJa": null,
       "awayJa": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -733,7 +733,7 @@
     {
       "date": "2026-07-02",
       "time": "09:00",
-      "homeJa": "アメリカ",
+      "homeJa": null,
       "awayJa": null,
       "status": "SCHEDULED",
       "homeScore": null,
