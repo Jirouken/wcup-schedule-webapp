@@ -1,54 +1,54 @@
 {
-  "lastUpdated": "2026-06-25T01:49:26.344Z",
+  "lastUpdated": "2026-06-25T05:52:41.390Z",
   "groups": {
     "A": [
       {
         "position": 1,
         "teamJa": "メキシコ",
         "played": 3,
-        "won": 2,
-        "draw": 1,
+        "won": 3,
+        "draw": 0,
         "lost": 0,
-        "goalsFor": 3,
+        "goalsFor": 6,
         "goalsAgainst": 0,
-        "goalDifference": 3,
-        "points": 7
+        "goalDifference": 6,
+        "points": 9
       },
       {
         "position": 2,
-        "teamJa": "韓国",
+        "teamJa": "南アフリカ",
         "played": 3,
         "won": 1,
         "draw": 1,
         "lost": 1,
         "goalsFor": 2,
-        "goalsAgainst": 2,
-        "goalDifference": 0,
+        "goalsAgainst": 3,
+        "goalDifference": -1,
         "points": 4
       },
       {
         "position": 3,
-        "teamJa": "チェコ",
+        "teamJa": "韓国",
         "played": 3,
-        "won": 0,
-        "draw": 2,
-        "lost": 1,
+        "won": 1,
+        "draw": 0,
+        "lost": 2,
         "goalsFor": 2,
         "goalsAgainst": 3,
         "goalDifference": -1,
-        "points": 2
+        "points": 3
       },
       {
         "position": 4,
-        "teamJa": "南アフリカ",
+        "teamJa": "チェコ",
         "played": 3,
         "won": 0,
-        "draw": 2,
-        "lost": 1,
-        "goalsFor": 1,
-        "goalsAgainst": 3,
-        "goalDifference": -2,
-        "points": 2
+        "draw": 1,
+        "lost": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 6,
+        "goalDifference": -4,
+        "points": 1
       }
     ],
     "B": [
