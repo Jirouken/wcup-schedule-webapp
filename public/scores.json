@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T20:28:37.934Z",
+  "lastUpdated": "2026-06-25T22:05:30.495Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -492,18 +492,18 @@
       "time": "05:00",
       "homeJa": "エクアドル",
       "awayJa": "ドイツ",
-      "status": "LIVE",
-      "homeScore": 1,
-      "awayScore": 1
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "date": "2026-06-26",
       "time": "05:00",
       "homeJa": "キュラソー",
       "awayJa": "コートジボワール",
-      "status": "LIVE",
-      "homeScore": 0,
-      "awayScore": 1
+      "status": "SCHEDULED",
+      "homeScore": null,
+      "awayScore": null
     },
     {
       "date": "2026-06-26",
