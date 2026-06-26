@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T16:35:01.993Z",
+  "lastUpdated": "2026-06-26T18:14:35.465Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -652,8 +652,8 @@
     {
       "date": "2026-06-29",
       "time": "04:00",
-      "homeJa": null,
-      "awayJa": null,
+      "homeJa": "南アフリカ",
+      "awayJa": "カナダ",
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null
@@ -661,8 +661,8 @@
     {
       "date": "2026-06-30",
       "time": "02:00",
-      "homeJa": null,
-      "awayJa": null,
+      "homeJa": "ブラジル",
+      "awayJa": "日本",
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null
@@ -670,7 +670,7 @@
     {
       "date": "2026-06-30",
       "time": "05:30",
-      "homeJa": null,
+      "homeJa": "ドイツ",
       "awayJa": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -679,8 +679,8 @@
     {
       "date": "2026-06-30",
       "time": "10:00",
-      "homeJa": null,
-      "awayJa": null,
+      "homeJa": "オランダ",
+      "awayJa": "モロッコ",
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null
@@ -706,7 +706,7 @@
     {
       "date": "2026-07-01",
       "time": "10:00",
-      "homeJa": null,
+      "homeJa": "メキシコ",
       "awayJa": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -733,8 +733,8 @@
     {
       "date": "2026-07-02",
       "time": "09:00",
-      "homeJa": null,
-      "awayJa": null,
+      "homeJa": "アメリカ",
+      "awayJa": "ボスニア・ヘルツェゴビナ",
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null
@@ -760,7 +760,7 @@
     {
       "date": "2026-07-03",
       "time": "12:00",
-      "homeJa": null,
+      "homeJa": "スイス",
       "awayJa": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -769,7 +769,7 @@
     {
       "date": "2026-07-04",
       "time": "03:00",
-      "homeJa": null,
+      "homeJa": "オーストラリア",
       "awayJa": null,
       "status": "SCHEDULED",
       "homeScore": null,
@@ -778,7 +778,7 @@
     {
       "date": "2026-07-04",
       "time": "07:00",
-      "homeJa": null,
+      "homeJa": "アルゼンチン",
       "awayJa": null,
       "status": "SCHEDULED",
       "homeScore": null,
