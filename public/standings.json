@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T23:50:31.938Z",
+  "lastUpdated": "2026-06-27T01:47:59.724Z",
   "groups": {
     "A": [
       {
@@ -355,50 +355,50 @@
       {
         "position": 1,
         "teamJa": "スペイン",
-        "played": 2,
-        "won": 1,
+        "played": 3,
+        "won": 2,
         "draw": 1,
         "lost": 0,
-        "goalsFor": 4,
+        "goalsFor": 5,
         "goalsAgainst": 0,
-        "goalDifference": 4,
-        "points": 4
+        "goalDifference": 5,
+        "points": 7
       },
       {
         "position": 2,
-        "teamJa": "ウルグアイ",
-        "played": 2,
-        "won": 0,
-        "draw": 2,
-        "lost": 0,
-        "goalsFor": 3,
-        "goalsAgainst": 3,
-        "goalDifference": 0,
-        "points": 2
-      },
-      {
-        "position": 3,
         "teamJa": "カーボベルデ",
-        "played": 2,
+        "played": 3,
         "won": 0,
-        "draw": 2,
+        "draw": 3,
         "lost": 0,
         "goalsFor": 2,
         "goalsAgainst": 2,
         "goalDifference": 0,
+        "points": 3
+      },
+      {
+        "position": 3,
+        "teamJa": "ウルグアイ",
+        "played": 3,
+        "won": 0,
+        "draw": 2,
+        "lost": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "goalDifference": -1,
         "points": 2
       },
       {
         "position": 4,
         "teamJa": "サウジアラビア",
-        "played": 2,
+        "played": 3,
         "won": 0,
-        "draw": 1,
+        "draw": 2,
         "lost": 1,
         "goalsFor": 1,
         "goalsAgainst": 5,
         "goalDifference": -4,
-        "points": 1
+        "points": 2
       }
     ],
     "I": [
