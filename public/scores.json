@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T22:13:24.403Z",
+  "lastUpdated": "2026-06-27T23:17:48.746Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -600,18 +600,18 @@
       "time": "06:00",
       "homeJa": "パナマ",
       "awayJa": "イングランド",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "homeScore": 0,
-      "awayScore": 0
+      "awayScore": 2
     },
     {
       "date": "2026-06-28",
       "time": "06:00",
       "homeJa": "クロアチア",
       "awayJa": "ガーナ",
-      "status": "IN_PLAY",
-      "homeScore": 1,
-      "awayScore": 0
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 1
     },
     {
       "date": "2026-06-28",

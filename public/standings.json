@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T22:13:24.573Z",
+  "lastUpdated": "2026-06-27T23:17:48.855Z",
   "groups": {
     "A": [
       {
@@ -554,27 +554,27 @@
     "L": [
       {
         "position": 1,
+        "teamJa": "イングランド",
+        "played": 3,
+        "won": 2,
+        "draw": 1,
+        "lost": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "goalDifference": 4,
+        "points": 7
+      },
+      {
+        "position": 2,
         "teamJa": "クロアチア",
         "played": 3,
         "won": 2,
         "draw": 0,
         "lost": 1,
-        "goalsFor": 4,
-        "goalsAgainst": 4,
+        "goalsFor": 5,
+        "goalsAgainst": 5,
         "goalDifference": 0,
         "points": 6
-      },
-      {
-        "position": 2,
-        "teamJa": "イングランド",
-        "played": 3,
-        "won": 1,
-        "draw": 2,
-        "lost": 0,
-        "goalsFor": 4,
-        "goalsAgainst": 2,
-        "goalDifference": 2,
-        "points": 5
       },
       {
         "position": 3,
@@ -583,8 +583,8 @@
         "won": 1,
         "draw": 1,
         "lost": 1,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
         "goalDifference": 0,
         "points": 4
       },
@@ -593,12 +593,12 @@
         "teamJa": "パナマ",
         "played": 3,
         "won": 0,
-        "draw": 1,
-        "lost": 2,
+        "draw": 0,
+        "lost": 3,
         "goalsFor": 0,
-        "goalsAgainst": 2,
-        "goalDifference": -2,
-        "points": 1
+        "goalsAgainst": 4,
+        "goalDifference": -4,
+        "points": 0
       }
     ]
   }
