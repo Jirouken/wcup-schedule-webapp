@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T22:19:58.424Z",
+  "lastUpdated": "2026-07-01T23:48:30.844Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -726,8 +726,8 @@
       "time": "05:00",
       "homeJa": "ベルギー",
       "awayJa": "セネガル",
-      "status": "IN_PLAY",
-      "homeScore": 2,
+      "status": "FINISHED",
+      "homeScore": 3,
       "awayScore": 2
     },
     {
