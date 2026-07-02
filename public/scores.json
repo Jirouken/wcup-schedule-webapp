@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T01:52:24.778Z",
+  "lastUpdated": "2026-07-02T05:46:49.990Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -705,7 +705,7 @@
     },
     {
       "date": "2026-07-01",
-      "time": "10:00",
+      "time": "11:00",
       "homeJa": "メキシコ",
       "awayJa": "エクアドル",
       "status": "FINISHED",
@@ -735,8 +735,8 @@
       "time": "09:00",
       "homeJa": "アメリカ",
       "awayJa": "ボスニア・ヘルツェゴビナ",
-      "status": "IN_PLAY",
-      "homeScore": 1,
+      "status": "FINISHED",
+      "homeScore": 2,
       "awayScore": 0
     },
     {
