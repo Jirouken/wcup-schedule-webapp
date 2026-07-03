@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T18:04:31.962Z",
+  "lastUpdated": "2026-07-03T19:43:53.884Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -771,9 +771,9 @@
       "time": "03:00",
       "homeJa": "オーストラリア",
       "awayJa": "エジプト",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "IN_PLAY",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "date": "2026-07-04",
