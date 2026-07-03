@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T01:19:00.317Z",
+  "lastUpdated": "2026-07-03T05:01:47.577Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -755,16 +755,16 @@
       "awayJa": "クロアチア",
       "status": "FINISHED",
       "homeScore": 2,
-      "awayScore": 2
+      "awayScore": 1
     },
     {
       "date": "2026-07-03",
       "time": "12:00",
       "homeJa": "スイス",
       "awayJa": "アルジェリア",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "FINISHED",
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "date": "2026-07-04",
