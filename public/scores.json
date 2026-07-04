@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T04:57:20.519Z",
+  "lastUpdated": "2026-07-04T07:47:27.655Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -832,8 +832,8 @@
     {
       "date": "2026-07-07",
       "time": "04:00",
-      "homeJa": null,
-      "awayJa": null,
+      "homeJa": "ポルトガル",
+      "awayJa": "スペイン",
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null
@@ -850,8 +850,8 @@
     {
       "date": "2026-07-08",
       "time": "01:00",
-      "homeJa": null,
-      "awayJa": null,
+      "homeJa": "アルゼンチン",
+      "awayJa": "エジプト",
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null
@@ -859,8 +859,8 @@
     {
       "date": "2026-07-08",
       "time": "05:00",
-      "homeJa": null,
-      "awayJa": null,
+      "homeJa": "スイス",
+      "awayJa": "コロンビア",
       "status": "SCHEDULED",
       "homeScore": null,
       "awayScore": null
