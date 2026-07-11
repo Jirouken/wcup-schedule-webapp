@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T20:29:48.727Z",
+  "lastUpdated": "2026-07-11T21:25:01.657Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -825,7 +825,7 @@
       "time": "10:00",
       "homeJa": "メキシコ",
       "awayJa": "イングランド",
-      "status": "FINISHED",
+      "status": "2026-07-06 01:00:00Z",
       "homeScore": 2,
       "awayScore": 3
     },
@@ -888,9 +888,9 @@
       "time": "06:00",
       "homeJa": "ノルウェー",
       "awayJa": "イングランド",
-      "status": "SCHEDULED",
-      "homeScore": null,
-      "awayScore": null
+      "status": "IN_PLAY",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "date": "2026-07-12",
