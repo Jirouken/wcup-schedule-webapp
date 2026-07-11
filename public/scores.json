@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T21:25:01.657Z",
+  "lastUpdated": "2026-07-11T22:12:30.799Z",
   "matches": [
     {
       "date": "2026-06-12",
@@ -888,9 +888,9 @@
       "time": "06:00",
       "homeJa": "ノルウェー",
       "awayJa": "イングランド",
-      "status": "IN_PLAY",
-      "homeScore": 0,
-      "awayScore": 0
+      "status": "PAUSED",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "date": "2026-07-12",
